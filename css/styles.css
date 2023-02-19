@@ -5,6 +5,7 @@ body {
     color: var(--main-color);
     letter-spacing: 0.02em;
     margin: 0;
+    line-height: 24px;
 }
 
 .container {
@@ -80,14 +81,17 @@ h1, h2, h3, h4, p {
 
 .logo-web {
     font-size: 18px;
-    line-height: 0,03em;
+    font-weight: 800;
+    letter-spacing: 0.03em;
     color: var(--background-color);
     text-transform: uppercase;
 }
 
 .logo-studio {
     font-size: 18px;
-    line-height: 0,03em;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    line-height: 24px;
     color: var(--main-color);
     text-transform: uppercase;
 }
@@ -158,6 +162,7 @@ h1, h2, h3, h4, p {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    line-height: 60px;
 }
 
 .btn-main {
@@ -165,7 +170,7 @@ h1, h2, h3, h4, p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--button-color);
-    line-height: 0,04em;
+    font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     padding: 16px 32px;
@@ -185,7 +190,6 @@ h1, h2, h3, h4, p {
 
 .benefits-head {
     font-size: 20px;
-    line-height: 0,04em;
     color: var(--main-color);
     margin-bottom: 8px;
     font-weight: 500;
@@ -193,7 +197,6 @@ h1, h2, h3, h4, p {
 
 .benefits-description {
     font-size: 16px;
-    line-height: 0,06em;
     color: var(--text-color);
     align-self: center;
 }
@@ -210,7 +213,7 @@ h1, h2, h3, h4, p {
 
 .head-description {
     font-size: 36px;
-    line-height: 0,05em;
+    line-height: 40px;
     text-transform: capitalize;
     color: var(--main-color);
     margin-bottom: 72px;
@@ -226,14 +229,12 @@ h1, h2, h3, h4, p {
 
 .item-name {
     font-size: 20px;
-    line-height: 0,04em;
     color: var(--main-color);
     margin-bottom: 8px;
 }
 
 .item-position {
     font-size: 16px;
-    line-height: 0,06em;
     color: var(--text-color);
 }
 
@@ -258,7 +259,6 @@ h1, h2, h3, h4, p {
 
 .text-footer {
     font-size: 16px;
-    line-height: 0,06;
     color: var(--logo-footer);
     margin-top: 16px;
     width: 264px;
@@ -272,11 +272,11 @@ h1, h2, h3, h4, p {
     border: 1px solid var(--button-border);
     border-radius: 4px;
     font-size: 16px;
-    line-height: 0,04em;
     color: var(--background-color);
     padding: 12px 24px;
     margin-bottom: 75px;
     margin-top: 93px;
+    font-weight: 500;
 }
 
 .button-portfolio:hover,.button-portfolio:focus{
@@ -297,13 +297,12 @@ h1, h2, h3, h4, p {
 
 .name-app {
     font-size: 20px;
-    line-height: 0,04em;
     color: var(--main-color);
+    font-weight: 500;
 }
 
 .item-app {
     font-size: 16px;
-    line-height: 0,06em;
     color: var(--text-color);
 }
 
