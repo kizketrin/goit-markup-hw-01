@@ -22,6 +22,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    
 }
 
 .list-decoration {
@@ -57,6 +58,11 @@ h1, h2, h3, h4, p {
 ::before,
 ::after {
 	box-sizing: border-box;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -224,6 +230,10 @@ h1, h2, h3, h4, p {
     display: flex;
     flex-direction: column;
 }
+
+.section-doing {
+    padding-top: 0;
+}
 /* Section4 */
 
 
@@ -274,8 +284,6 @@ h1, h2, h3, h4, p {
     font-size: 16px;
     color: var(--background-color);
     padding: 12px 24px;
-    margin-bottom: 75px;
-    margin-top: 93px;
     font-weight: 500;
 }
 
@@ -293,6 +301,15 @@ h1, h2, h3, h4, p {
     gap: 24px;
 }
 
+.btn-list {
+    margin-bottom: 75px;
+    gap: 24px;
+}
+
+.btn-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 /* portfolio item */
 
 .name-app {
@@ -308,19 +325,18 @@ h1, h2, h3, h4, p {
 
 .list-portfolio {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
-.img-portfolio {
+/* .img-portfolio {
     display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
-}
+} */
 
 .portfolio-item {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-bottom: #E7E9FC 2px solid;
-    border-left: #E7E9FC 2px solid;
-    border-right:  #E7E9FC 2px solid;
+    padding: 32px, 16px;
+    border-bottom: #E7E9FC 1px solid;
+    border-left: #E7E9FC 1px solid;
+    border-right:  #E7E9FC 1px solid;
 }
